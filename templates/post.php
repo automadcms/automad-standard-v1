@@ -13,8 +13,6 @@
 	
 	@{ imageCard } 
 	@{ checkboxHideThumbnails }
-
-	@{ textMarkdownTest }
 	
 	#>
 	<link href="/packages/automad/standard-v1/dist/standard.min.css" rel="stylesheet">
