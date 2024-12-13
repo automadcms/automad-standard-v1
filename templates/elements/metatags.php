@@ -1,5 +1,4 @@
 <@ set_teaser_variable.php @>
-<?php if (substr(AM_VERSION, 0, 1) == '1') { ?>
 <@ set { :description: @{ metaDescription | def(@{ :teaser | stripTags }) } } @>
 <@ Automad/MetaTags { 
 	description: @{ :description },
@@ -13,4 +12,3 @@
 		def('*.jpg, *.png, *.gif, /shared/*.jpg, /shared/*.png, /shared/*.gif') 
 	}
 } @>
-<?php } ?>
